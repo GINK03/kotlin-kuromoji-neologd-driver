@@ -10,6 +10,11 @@
   非Linux系のOSではそもそもMeCabのインストールが困難などの問題があり、JVMで動作する形態素解析エンジンが求められている。  
   そのような背景のもと、Kuromojiの形態素解析系をKotlinに移植する。
 
+## Requirements
+- Oracle Java Development Kit version8(Open JDK8でも可)
+- Kotlin 1.1.1(>)
+- Bash
+
 ## 辞書
 　Kuromojiの辞書のデータの持ち方は、jarファイルに直接、取り込んでいるスタイルなのでclasspath追加することで、neologdの利用が可能になる。  
 
