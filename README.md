@@ -1,11 +1,7 @@
 # Kotlin-Kuromoji-Neologd-Driver
 <p align="center">
-  <p float="left">
-    <img width="300px" src="https://raw.githubusercontent.com/neologd/mecab-ipadic-neologd/images/neologd-logo-September2016.png">
-  </p>
-  <p>
-    <img width="300px" src="https://cloud.githubusercontent.com/assets/4949982/24944856/d49bc890-1f97-11e7-9f3e-7adfa1b9baa3.png">
-  </p>
+  <img width="300px" float="left" src="https://raw.githubusercontent.com/neologd/mecab-ipadic-neologd/images/neologd-logo-September2016.png">
+  <img width="300px" src="https://cloud.githubusercontent.com/assets/4949982/24944856/d49bc890-1f97-11e7-9f3e-7adfa1b9baa3.png">
 </p>
 
 ## Kuromojiによる形態素解析
