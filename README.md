@@ -14,6 +14,7 @@
 - Oracle Java Development Kit version8(Open JDK8でも可)
 - Kotlin 1.1.1(>)
 - Bash
+- 十分なJava Heap Memory Size(3GB以上)
 
 ## 辞書
 　Kuromojiの辞書のデータの持ち方は、jarファイルに直接、取り込んでいるスタイルなのでclasspath追加することで、neologdの利用が可能になる。  
