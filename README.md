@@ -1,4 +1,12 @@
 # Kotlin-Kuromoji-Neologd-Driver
+<p align="center">
+  <div float="left">
+    <img width="300px" src="https://raw.githubusercontent.com/neologd/mecab-ipadic-neologd/images/neologd-logo-September2016.png">
+  </div>
+  <div>
+    <img width="300px" src="https://cloud.githubusercontent.com/assets/4949982/24944856/d49bc890-1f97-11e7-9f3e-7adfa1b9baa3.png">
+  </div>
+</p>
 
 ## Kuromojiによる形態素解析
 　Kuromojiのneologd辞書を利用して、Pure JVMで最新の形態素解析を行うものである。  
@@ -34,8 +42,6 @@ $ echo "今日はどうしました、旗振る子リス" | sh run.morpheme.sh s
 上記の例では、echoでstdinに入力しているが、cat ${ファイル名} | sh run.morpheme.st streamなどでも処理可能。
 
 ## コード
-
-
 ```kotlin
 import java.io.BufferedReader
 import java.io.InputStreamReader
