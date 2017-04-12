@@ -1,8 +1,40 @@
 # Kotlin-Kuromoji-Neologd-Driver
 
 ## Kuromojiによる形態素解析
+　Kuromojiのneologd辞書を利用して、Pure JVMで最新の形態素解析を行うものである。  
+  非Linux系のOSではそもそもMeCabのインストールが困難などの問題があり、JVMで動作する形態素解析エンジンが求められている。  
+  そのような背景のもと、Kuromojiの形態素解析系をKotlinに移植する。
 
-## 
+## 辞書
+　Kuromojiの辞書のデータの持ち方は、jarファイルに直接、取り込んでいるスタイルなのでclasspath追加することで、neologdの利用が可能になる。  
+
+## セットアップ
+プログラムのダウンロード
+```sh
+$ git clone https://github.com/GINK03/kotlin-kuromoji-neologd-driver.git
+```
+ディレクトリの移動
+```sh
+$ cd kotlin-kuromoji-neologd-driver
+```
+Kuromojiのjarファイルのダウンロード
+```sh
+$ sh download_kuromoji_jars.sh
+```
+コンパイル
+```sh
+$ sh compile.morpheme.sh
+```
+
+## 実行
+```sh
+$ echo "今日はどうしました、旗振る子リス" | sh run.morpheme.sh stream
+今日 は どう し まし た 、 旗 振る 子 リス
+```
+上記の例では、echoでstdinに入力しているが、cat ${ファイル名} | sh run.morpheme.st streamなどでも処理可能。
+
+## コード
+
 
 ```kotlin
 import java.io.BufferedReader
